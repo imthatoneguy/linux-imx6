@@ -26,7 +26,7 @@
 #include <linux/mdio.h>
 #include <net/ip6_checksum.h>
 
-#include "compatibility.h"
+#include "r8152.h"
 
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(3,7,0)
 #include <uapi/linux/mdio.h>
